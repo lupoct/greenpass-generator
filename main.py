@@ -17,31 +17,31 @@ from cose.keys.curves import Ed25519
 from cose.keys import OKPKey
 
 DATA = {
-    1: "DE",
+    1: "IT",
     -260: {
         1: {
             "v": [
                 {
-                    "dn": 2,
+                    "dn": 3,
                     "sd": float("inf"),
                     "ma": "ORG-100030215",
                     "vp": "1119349007",
-                    "dt": "2021-06-11",
-                    "co": "DE",
+                    "dt": "2022-02-11",
+                    "co": "IT",
                     "ci": "420_69",
                     "mp": "EU/1/20/1528",
-                    "is": "Reichsministerium für Volksaufklärung und Propaganda",
+                    "is": "ASP 03 CATANIA",
                     "tg": "840539006"
                 }
             ],
             "nam": {
-                "fnt": "Goebbels",
-                "fn": "Goebbels",
-                "gnt": "Paul Joseph",
-                "gn": "Paul Joseph"
+                "fnt": "Scifo",
+                "fn": "Scifo",
+                "gnt": "Vincenzo",
+                "gn": "Vincenzo"
             },
             "ver": "1.0.0",
-            "dob": "1897-10-29"
+            "dob": "1977-10-29"
         }
     }
 }
